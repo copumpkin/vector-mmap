@@ -5,7 +5,7 @@ License-File:   LICENSE
 Author:         Daniel Peebles <pumpkingod@gmail.com>
 Maintainer:     Daniel Peebles <pumpkingod@gmail.com>
 Copyright:      (c) Daniel Peebles 2010
-Homepage:       http://code.haskell.org/vector
+Homepage:       http://github.com/pumpkin/vector-mmap
 Category:       Data, Data Structures
 Synopsis:       Memory map immutable and mutable vectors
 Description:
