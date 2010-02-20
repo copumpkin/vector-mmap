@@ -1,5 +1,5 @@
 Name:           vector-mmap
-Version:        0.0.1
+Version:        0.0.2
 License:        BSD3
 License-File:   LICENSE
 Author:         Daniel Peebles <pumpkingod@gmail.com>
@@ -19,5 +19,3 @@ Library
         Data.Vector.Storable.MMap
 
   Build-Depends: base >= 2 && < 5, mmap >= 0.5.4, vector >= 0.5, primitive >= 0.2.1
-
-  Ghc-Options: -O2
