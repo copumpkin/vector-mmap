@@ -15,7 +15,7 @@ import Data.Int
 import Control.Monad.Primitive
 
 -- | Map a file into memory as a mutable vector.
-unsafeMMapMVector :: forall s a. Storable a => FilePath -- ^ Path of the file to map
+unsafeMMapMVector :: forall a. Storable a => FilePath -- ^ Path of the file to map
                                             -> Mode -- ^ Mapping mode
                                             -> Maybe (Int64, Int) -- ^ 'Nothing' to map entire file into memory, otherwise 'Just (fileOffset, elementCount)'
                                             -> IO (M.MVector (PrimState IO) a)
