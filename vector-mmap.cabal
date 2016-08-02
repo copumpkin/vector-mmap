@@ -11,7 +11,7 @@ Synopsis:       Memory map immutable and mutable vectors
 Description:
         Memory map immutable and mutable vectors.
 
-Cabal-Version:  >= 1.2
+Cabal-Version:  >= 1.8
 Build-Type:     Simple
 
 Library
@@ -19,3 +19,10 @@ Library
         Data.Vector.Storable.MMap
 
   Build-Depends: base >= 2 && < 5, mmap >= 0.5.4, vector >= 0.5, primitive >= 0.2.1
+
+
+Test-Suite quickcheck
+  Type: exitcode-stdio-1.0
+  HS-Source-Dirs: test
+  Main-is: TestSuite.hs
+  build-depends: base >= 2 && < 5, vector-mmap, vector, QuickCheck, temporary
