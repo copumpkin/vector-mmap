@@ -26,3 +26,8 @@ Test-Suite quickcheck
   HS-Source-Dirs: test
   Main-is: TestSuite.hs
   build-depends: base >= 2 && < 5, vector-mmap, vector, QuickCheck, temporary
+
+
+Source-Repository head
+  Type: git
+  Location: https://github.com/copumpkin/vector-mmap
