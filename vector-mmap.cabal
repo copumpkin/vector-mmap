@@ -1,5 +1,5 @@
 Name:           vector-mmap
-Version:        0.0.2
+Version:        0.0.3
 License:        BSD3
 License-File:   LICENSE
 Author:         Daniel Peebles <pumpkingod@gmail.com>
@@ -26,3 +26,8 @@ Test-Suite quickcheck
   HS-Source-Dirs: test
   Main-is: TestSuite.hs
   build-depends: base >= 2 && < 5, vector-mmap, vector, QuickCheck, temporary
+
+
+Source-Repository head
+  Type: git
+  Location: https://github.com/copumpkin/vector-mmap
